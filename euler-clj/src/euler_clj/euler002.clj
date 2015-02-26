@@ -32,3 +32,9 @@
   (euler002 100) => 44)
 
 ; (euler002 4000000)
+
+;; another version:
+(defn fib
+  ([] (fib 1 1))
+  ([x y]
+   (lazy-seq (cons y (fib y (+ x y))))))

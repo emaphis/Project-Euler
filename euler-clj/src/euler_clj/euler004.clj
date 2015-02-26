@@ -1,4 +1,4 @@
-(ns euler-clj.euler003
+(ns euler-clj.euler004
   (:require [midje.sweet :refer :all]))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
